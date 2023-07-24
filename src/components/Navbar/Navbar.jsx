@@ -1,7 +1,9 @@
+import Banner from './Banner';
 import icon from '/collegeIcon.png'
 const Navbar = () => {
     return (
-      <nav className="bg-green-600 text-white p-4">
+     <div>
+         <nav className="bg-green-600 text-white p-4 sticky top-0 left-0">
         <div className="container mx-auto flex justify-between items-center">
             <div className='flex justify-center items-center gap-2'>
             <img src={icon} alt="" className='w-12' />
@@ -23,6 +25,8 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+      <Banner></Banner>
+     </div>
     );
   };
   
