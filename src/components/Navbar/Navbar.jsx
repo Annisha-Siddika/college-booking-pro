@@ -1,4 +1,4 @@
-import Banner from './Banner';
+
 import icon from '/collegeIcon.png'
 const Navbar = () => {
     return (
@@ -25,7 +25,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <Banner></Banner>
      </div>
     );
   };
